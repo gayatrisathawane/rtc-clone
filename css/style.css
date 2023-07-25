@@ -7,6 +7,7 @@ body{
     padding-left: 100px; 
     
 }
+
 .head{
     background-color: antiquewhite;
     padding: 14px;
@@ -26,7 +27,17 @@ body{
     justify-content: space-evenly;
     box-shadow: 3px 3px 3px rgb(249, 245, 245);
     padding: 10px;
+    position: sticky;
+    left: 0px;
+    top: 0px;
+    background-color: #ffffff;
+   
   
+}
+.navbar{
+    position: sticky;
+    left: 0px;
+    top: 0px;
 }
 .nav-link{
     text-decoration: none;
@@ -45,6 +56,7 @@ body{
     height: 400px;
     padding-left: 100px;
 }
+
 .imgtextdiv{
     
     display: flex;
