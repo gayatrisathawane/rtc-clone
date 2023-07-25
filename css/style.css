@@ -1,0 +1,166 @@
+body{
+    margin: 0px;
+    
+}
+.heading{
+    font-size: 25px; 
+    padding-left: 100px; 
+    
+}
+.head{
+    background-color: antiquewhite;
+    padding: 14px;
+}
+.link{
+    text-decoration: none;
+    color: black;
+}
+.link:hover{
+    text-decoration: none;
+    color: rgb(57, 126, 238);
+}
+.container{
+    font-size: 17px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    box-shadow: 3px 3px 3px rgb(249, 245, 245);
+    padding: 10px;
+  
+}
+.nav-link{
+    text-decoration: none;
+    margin-top: 8px;
+    color: rgb(98, 98, 98);
+}
+.roadtocodelog{
+    height: 40px;
+    margin-left: 50px;
+}
+.roadtohead{
+    font-size: 22px;
+    margin-top: 5px;
+}
+.imghome{
+    height: 400px;
+    padding-left: 100px;
+}
+.imgtextdiv{
+    
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.hometext{
+    padding: 10px;
+    margin-left: 30px;
+    font-weight: 700 !important;
+    margin-top: 10px;
+}
+.subtext{
+    color: gray;
+    font-size: 20px;
+}
+.btn{
+    font-family: "Font Awesome 6 Free";
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    font-size: 1.2rem;
+    padding: 8px;
+    text-align: center;
+}
+.btn2{
+    background-color:#ffc107;
+    border: #ffc107;
+    color: black;
+    margin-left: 50px;
+}
+.btn1{
+    background-color: black;
+}
+.subimg{
+    width: 290px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2px;
+    border-radius: 11px 11px 0px 0px;
+}
+.coursesdiv{
+    display: inline-flex;
+    margin-left: 50px;
+    margin-right: auto;
+    margin-top: 10px;
+    
+}
+.card {
+    box-shadow: 0px 5px 4px 0px rgb(2, 160, 244);
+    width: 300px;
+    padding-left: 2px;
+    margin-left: 15px;
+    border-radius: 11px;
+
+}
+.courseheading{
+    font-size: calc(1.420rem + 2.1vw);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+.course-btn{
+    color: aliceblue;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 2px;
+    margin-bottom: 15px;
+
+}
+.course-price{
+    text-align: center;
+
+}
+.course-name{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+.course-name{
+    text-align: center;
+}
+.course-des{
+    padding: 5px;
+}
+.feature-div{
+    display: inline-flex;
+    margin-left: 80px;
+}
+.featureimg{
+    width: 350px;
+    
+}
+.subfeature{
+    display: inline-flex;
+    
+}
+.feature{
+    box-shadow: 0px 0px 1px 1px rgb(255, 254, 254);
+    margin: 10px;
+    border-radius: 10px;
+    padding: 15px;
+    background-color: white;
+    height: 100px;
+    width: 250px;
+    border: 0.5px solid rgb(198, 197, 197);
+    background-color: white;
+    
+}
+.imgfeature{
+    width: 40px;
+    background-color: rgb(253, 252, 249);
+    padding: 5px;
+    border: 0.5px solid  rgb(245, 194, 113);
+}
