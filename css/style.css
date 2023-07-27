@@ -88,9 +88,18 @@ body{
     border: #ffc107;
     color: black;
     margin-left: 50px;
+    
 }
 .btn1{
     background-color: black;
+    
+}
+a{
+    text-decoration: none;
+    color: #ffffff;
+}
+*{
+    scroll-behavior: smooth;
 }
 .subimg{
     width: 290px;
@@ -101,10 +110,18 @@ body{
     border-radius: 11px 11px 0px 0px;
 }
 .coursesdiv{
-    display: inline-flex;
-    margin-left: 50px;
-    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin-top: 10px;
+    
+}
+.coursesdiv2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     
 }
 .card {
@@ -175,4 +192,10 @@ body{
     background-color: rgb(253, 252, 249);
     padding: 5px;
     border: 0.5px solid  rgb(245, 194, 113);
+}
+.footer{
+    background-color: black;
+    height: 200px;
+    margin-top: 15px;
+    color: #ffffff;
 }
